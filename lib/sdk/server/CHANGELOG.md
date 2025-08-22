@@ -2,6 +2,25 @@
 
 All notable changes to the LaunchDarkly Java SDK will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org).
 
+## [7.11.0](https://github.com/jonathan-ostrander/java-core/compare/launchdarkly-java-server-sdk-7.10.1...launchdarkly-java-server-sdk-7.11.0) (2025-08-22)
+
+
+### Features
+
+* Add experimental plugin support ([#76](https://github.com/jonathan-ostrander/java-core/issues/76)) ([13dc0e4](https://github.com/jonathan-ostrander/java-core/commit/13dc0e42318ac090c72b2fbc89454b50434a1ff6))
+* Enable gzip option for events in server SDK ([#67](https://github.com/jonathan-ostrander/java-core/issues/67)) ([2420219](https://github.com/jonathan-ostrander/java-core/commit/2420219efa0258fc57031979ece8a1deb6a54ff5))
+* Inline context for custom and migration events ([#63](https://github.com/jonathan-ostrander/java-core/issues/63)) ([fb76712](https://github.com/jonathan-ostrander/java-core/commit/fb767121ec048ecae85ac542c4cdca38db736e4d))
+
+
+### Bug Fixes
+
+* migrating publishing to use central portal ([#78](https://github.com/jonathan-ostrander/java-core/issues/78)) ([cf4e46e](https://github.com/jonathan-ostrander/java-core/commit/cf4e46e05bc5f95cc791af3244900d05e458fe64))
+
+
+### Performance Improvements
+
+* optimize EvaluatorWithHooks ([#73](https://github.com/jonathan-ostrander/java-core/issues/73)) ([6b42592](https://github.com/jonathan-ostrander/java-core/commit/6b42592c7efd84eae7bb13977a5a3f3fb2237c9c))
+
 ## [7.10.1](https://github.com/launchdarkly/java-core/compare/launchdarkly-java-server-sdk-7.10.0...launchdarkly-java-server-sdk-7.10.1) (2025-06-30)
 
 
